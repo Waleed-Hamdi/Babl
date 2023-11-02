@@ -1,0 +1,289 @@
+section{
+    padding: 3.8em 2em;
+    border-radius: 15px;
+}
+
+.main{
+    width: 100%;
+    display: flex;
+    text-align: center; 
+    min-height: 100vh;
+    align-items: center;
+    border-radius: 10px;
+    padding-top: 5em;
+    align-items: flex-start;     
+     background: url(../../public/Assets/logo3.jpg) no-repeat ; 
+    background-size: cover;
+    background-position: center ;
+    background-attachment: fixed;
+    
+}
+
+.main2{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 0.9em;
+    min-height: 70vh;
+    padding-top: 5em;
+    display: flex;
+    background: url(../../public/Assets/logo3.jpg) no-repeat ;
+    background-size: cover;
+    background-position: center ;
+    background-attachment: fixed;
+   
+}
+
+
+
+
+.main h2{
+    color: white;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+
+
+.main h3{
+    color: white;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+}
+
+.head:hover{
+    transition: 0.7s ease;
+    transform: scale(1.1);
+}
+
+.main-btn{
+    color: white;
+    background-color: #00C8AE ;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;  
+    transition: 0.7s ease;
+
+}
+
+.main-btn:hover{
+    background-color: #8a49f6;
+    transform: scale(1.1);
+}
+
+
+.title{
+    display: flex;
+    justify-content: center;
+    color: #002132;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+
+}
+
+.content {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    
+}
+
+/* .content-p{
+    font-size: 0.8em;
+    color: white;
+    min-height: 100vh;
+    padding: 2em;
+    background: url(../../public/Assets/6.jpg) no-repeat;
+    background-size: cover;
+    background-position: center ;
+    background-attachment: fixed;
+
+} */
+
+.content2{
+    margin-top: 5.5em;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: row;
+    direction: rtl;
+}
+
+.why{
+    font-size: 2em;
+    font-weight: 800;
+    color: #002132;
+}
+
+.why-p{
+   font-size: 1.2em;
+   font-weight: 500;
+}
+.why-p-card{
+    background-color: white;
+    width: 44em;
+    box-shadow: 0 5px 25px rgba(1 1 1 /15%);
+    border-radius: 10px;
+    padding: 0.8em;
+    margin: 1em 0.5em 0.5em 0.8em ;
+    transition: 0.7s ease;
+}
+
+.why-p-card:hover{
+    transform: scale(1.1);
+}
+
+
+
+.card{
+    color: white;
+    background-color: #002132;
+    width: 19.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 /15%);
+    border-radius: 10px;
+    padding: 1em;
+    margin: 1em;
+    transition: 0.7s ease;
+}
+
+.card-value{
+    color: white;
+    text-align: center;
+    display: block;
+    background-color: #002132;
+    width: 12.8em;
+    height: 13em;
+    box-shadow: 0 5px 25px rgba(1 1 1 /15%);
+    border-radius: 10px;
+    padding: 1em;
+    margin: 1em;
+    transition: 0.7s ease;
+}
+
+.card-value:hover{
+    transform: scale(1.045);
+}
+
+
+
+.vision-card{
+    text-align: center;  
+
+    justify-content: center;
+    font-weight: 600;
+    color: white;
+    background-color: #002132;
+    font-size: 1.7em;
+    box-shadow: 0 5px 25px rgba(1 1 1 /15%);
+    border-radius: 10px;
+    padding: 0.1em;
+    margin: 0.5em;
+    transition: 0.7s ease;
+    opacity: 0.8;
+}
+
+.vision-card:hover{
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+
+.info{
+    text-align: center;
+    font-size: 1.5em;
+    
+}
+
+.img{
+    max-width: 100%;
+    max-height: 50vh;
+    border-radius: 10px;
+}
+
+
+
+.footer{
+    background-color: #000016;
+    color: white;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-title{
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+
+
+@media(max-width:1023px){
+    header{
+        padding: 12px 20px;
+    }
+
+    .title{
+        font-size: 1.8em;
+    }
+
+    .section{
+        padding:  80px 20px;
+
+    }
+
+    .main-content h2{
+        font-size: 1em;
+    }
+
+    .main-content h3{
+        font-size: 1.6em;
+    }
+
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+}
+
+@media (max-width:641px){
+    body{
+        font-size: 12px;
+    }
+
+    .main-content h2{
+        font-size: 0.8em;
+    }
+
+    .main-content h3{
+        font-size: 1.4em;
+    }
+
+}
+
+
+
+@media (max-width:300px){
+    body{
+        font-size: 10px;
+        
+    }
+}
