@@ -5,3 +5,6 @@
 ### write in teminal (npm start)
 
 ## this website is created by ReactJS
+
+
+run npm install
